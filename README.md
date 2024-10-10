@@ -1,8 +1,8 @@
-# delete-docker-registry-image
+# Delete docker registry image.
 
 ## Install
 
-    curl https://raw.githubusercontent.com/drylikov/delete_docker_registry_image/master/delete_docker_registry_image.py | sudo tee /usr/local/bin/delete_docker_registry_image >/dev/null
+    curl https://raw.githubusercontent.com/drylikov/Delete_docker_registry_image/master/delete_docker_registry_image.py | sudo tee /usr/local/bin/delete_docker_registry_image >/dev/null
     sudo chmod a+x /usr/local/bin/delete_docker_registry_image
 
 ## Run
@@ -16,15 +16,15 @@ for your setup.
 
 Almost delete a repo:
 
-    delete_docker_registry_image --image testrepo/awesomeimage --dry-run
+    Delete_docker_registry_image --image testrepo/awesomeimage --dry-run
 
 Actually delete a repo (remember to shut down your registry first):
 
-    delete_docker_registry_image --image testrepo/awesomeimage
+    Delete_docker_registry_image --image testrepo/awesomeimage
 
 Delete one tag from a repo:
 
-    delete_docker_registry_image --image testrepo/awesomeimage:supertag
+    Delete_docker_registry_image --image testrepo/awesomeimage:supertag
 
 
 ## clean_old_versions.py
