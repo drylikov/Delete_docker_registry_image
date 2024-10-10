@@ -77,6 +77,4 @@ docker and the registry.
 
 The ability to delete the metadata for a manifest was added in registry:2.2. Make
 sure you give the registry the environment variable
-REGISTRY_STORAGE_DELETE_ENABLED=true. Follow the instructions at
-https://github.com/docker/docker-registry/issues/988#issuecomment-224280919 to
-delete a tag by name.
+REGISTRY_STORAGE_DELETE_ENABLED=true.
